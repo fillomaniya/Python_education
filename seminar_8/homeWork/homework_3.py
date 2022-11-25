@@ -12,10 +12,6 @@ numbers = [[round(uniform(9, 25), 1) for i in range(31)],
 for rows in numbers:
     print(rows)
 
-start = 0
-end = 7
-max = sum(rows[start:end])
-min = sum(rows[start:end])
 
 for rows in numbers:
     if end < len(rows):
