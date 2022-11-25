@@ -1,7 +1,6 @@
 import random, telebot, logging, math
 
-# t.me/fillomaniya_bot
-API_TOKEN = '5880836899:AAFgP0X_f5Y-5BaRGfA0ityMWMeBo96rz1E'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN)
 telebot.logger.setLevel(logging.INFO)
